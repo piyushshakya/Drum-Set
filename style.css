@@ -17,8 +17,8 @@ h1{
     color: #D47AE8;
     font-size: 5.5rem;
     font-weight: bold;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: 3px 0 #DA0463;
+    text-shadow: 3px 0 #9f14be;
+    font-family: 'Courgette', cursive;
 }
 
 .set {
@@ -27,38 +27,60 @@ h1{
 
 .w{
     background-image: url('images/tom1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .a{
     background-image: url('images/tom2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .s{
     background-image: url('images/tom3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .d{
     background-image: url('images/tom4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .j{
     background-image: url('images/snare.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .k{
     background-image: url('images/crash.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .l{
     background-image: url('images/kick.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .drum {
     outline: none;
     border: 5px solid #404B69;
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-family: cursive;
-    line-height: 2;
+    line-height: 2.5;
     font-weight: 900;
     color: #DA0463;
     text-shadow: 3px 0 #DBEDF3;
@@ -74,4 +96,36 @@ h1{
 .pressed{
     box-shadow: 0 2% 3% 0 #DBEDF3;
     opacity: 0.8;
+}
+
+@media (max-width: 700px) {
+
+.drum{
+    font-size: 3rem;
+    width: 120px;
+    height: 120px;
+    line-height: 3;
+    margin:9px;
+}
+
+h1{
+    /* padding-top: 5%; */
+    padding: 2.5%;
+    font-size: 4.5rem;
+}
+}
+
+@media (max-width: 420px){
+.drum{
+    font-size: 2.7rem;
+    width: 90px;
+    height: 90px;
+    line-height: 2.1;
+}
+
+h1{
+    padding-top: 5%;
+    padding-bottom: 2.5%;
+    font-size: 4rem;
+}
 }
